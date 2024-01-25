@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./src/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Interf&display=swap');
+
+    body{
+      font-size: 14px;
+      font-family: 'Inter';
+    }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    img{
+      width: 80px;
+      height: 80px;
+    }
+  </style>
+</head>
+
+<body class="flex justify-center items-center box-border m-0 max-h-1440 min-w-375 min-h-screen bg-off">
+  <main class="flex flex-col  border-solid border border-black rounded-2xl p-14 ml-auto mr-auto text-sm bg-dark-grey max-w-375px min-h-500px">
+    <div class="flex flex-col items-center justify-center gap-2 -mb-5 -mt-5">
+      <img class="border border-transparent rounded-full"id="img1" src="./assets/images/avatar-jessica.jpeg" alt="" >
+      <h1 class="text-white text-2xl pt-4">Jessica Randall</h1>
+      <h2 class="text-green text-sm">London, United Kingdom</h2>
+      <p class="text-white text-sm pt-2 pb-2">"Front-end developer and avid reader."</p>
+      <div class="flex flex-col items-center justify-center gap-3 pt-2 ">
+        <button class="text-white bg-grey border border-transparent text-sm pt-3 pb-3 rounded-lg w-72 hover:bg-green hover:text-grey font-bold " onclick="location.href='#'" type="button">GitHub</button>
+        <button class="text-white bg-grey border border-transparent text-sm pt-3 pb-3 rounded-lg w-72 whitespace-nowrap hover:bg-green hover:text-grey font-bold" onclick="location.href='#'" type="button">Frontend Mentor</button>
+        <button class="text-white bg-grey border border-transparent text-sm pt-3 pb-3 rounded-lg w-72 hover:bg-green hover:text-grey font-bold" onclick="location.href='#'" type="button">LinkedIn</button>
+        <button class="text-white bg-grey border border-transparent text-sm pt-3 pb-3 rounded-lg w-72 hover:bg-green hover:text-grey font-bold" onclick="location.href='#'" type="button">Twitter</button>
+        <button class="text-white bg-grey border border-transparent text-sm pt-3 pb-3 rounded-lg w-72 hover:bg-green hover:text-grey font-bold" onclick="location.href='#'" type="button">Instagram</button>
+      </div>
+      
+      
+    </div>
+  </main>
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kim</a>.-->
+  </div>
+</body>
+
+</html>
